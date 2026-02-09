@@ -19,9 +19,6 @@ const ReviewScreen: React.FC<ReviewScreenProps> = ({
   return (
     <div className="review-screen">
       <div className="review-header">
-        <button className="back-button" onClick={onBack}>
-          <i className="ri-arrow-left-s-line"></i>
-        </button>
         <h2 className="review-header-title">
           <i className="ri-book-mark-line"></i>
           오답 노트

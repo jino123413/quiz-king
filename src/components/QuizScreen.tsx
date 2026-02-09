@@ -122,9 +122,6 @@ const QuizScreen: React.FC<QuizScreenProps> = ({
   return (
     <div className="quiz-screen">
       <div className="quiz-header">
-        <button className="back-button" onClick={onBack}>
-          <i className="ri-arrow-left-s-line"></i>
-        </button>
         <div className="quiz-header-info">
           <span className="quiz-header-emoji">{category.emoji}</span>
           <span className="quiz-header-title">{category.title}</span>
