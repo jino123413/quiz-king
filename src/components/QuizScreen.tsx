@@ -126,6 +126,9 @@ const QuizScreen: React.FC<QuizScreenProps> = ({
           <span className="quiz-header-emoji">{category.emoji}</span>
           <span className="quiz-header-title">{category.title}</span>
         </div>
+        <button className="quit-button" onClick={onBack}>
+          그만두기
+        </button>
       </div>
 
       <div className="quiz-progress-bar">

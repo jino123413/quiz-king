@@ -23,6 +23,9 @@ const ReviewScreen: React.FC<ReviewScreenProps> = ({
           <i className="ri-book-mark-line"></i>
           오답 노트
         </h2>
+        <button className="quit-button" onClick={onBack}>
+          홈으로
+        </button>
       </div>
 
       {!unlocked ? (
